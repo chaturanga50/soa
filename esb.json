@@ -1,0 +1,33 @@
+{
+	"deps": {
+		"packages": [
+		"binutils >= 2.23.52.0.1",
+		"compat-libcap1 >= 1.10",
+		"compat-libstdc++-33.x86_64",
+		"compat-libstdc++-33.i686",
+		"gcc >= 4.8.2",
+		"gcc-c++ >= 4.8.2",
+		"glibc.x86_64",
+		"glibc.i686",
+		"glibc-devel",
+		"libaio.x86_64",
+		"libaio-devel.x86_64",
+		"libgcc.x86_64",
+		"libgcc.i686",
+		"libstdc++.x86_64",
+		"libstdc++.i686",
+		"libstdc++-devel.x86_64",
+		"ksh",
+		"make >= 3.82",
+		"sysstat >= 10.1.5",
+		"numactl >= 2.0.9",
+		"numactl-devel >= 2.0.9",
+		"motif >= 2.3.4-7",
+		"motif-devel >= 2.3.4-7",
+		"redhat-lsb >= 4.1-27.0.1.el7",
+		"redhat-lsb-core >= 4.1-27.0.1.el7",
+		"lrzsz",
+		"unzip"
+		]
+	}
+}
