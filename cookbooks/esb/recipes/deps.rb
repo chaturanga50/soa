@@ -6,3 +6,6 @@ node["deps"]["packages"].each do | package |
 		action :upgrade
 	end
 end
+
+#Install Java 8
+include_recipe 'java_se'
