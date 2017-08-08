@@ -9,5 +9,6 @@ then
 fi
 
 git clone https://github.com/damithkothalawala/soa.git /tmp/soa
-git pull /tmp/soa
 chef-client -c //tmp/soa/client.rb -zj /tmp/soa/esb.json -r "recipe[esb::deps]"
+
+rm -rf /tmp/soa
