@@ -33,7 +33,8 @@
 	"openssh": {
   "server": {
     "address_family": "inet",
-    "X11UseLocalhost": "no"
+    "X11UseLocalhost": "no",
+    "x11_forwarding": "yes"
     }
   },
  "java_se": {

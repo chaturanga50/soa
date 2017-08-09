@@ -9,3 +9,4 @@ end
 
 #Install Java 8
 include_recipe 'java_se'
+include_recipe 'openssh'
