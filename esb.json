@@ -29,5 +29,14 @@
 		"lrzsz",
 		"unzip"
 		]
-	}
+	},
+	"openssh": {
+  "server": {
+    "address_family": "inet",
+    "X11UseLocalhost": "no"
+    }
+  },
+ "java_se": {
+    "uri": "https://s3.amazonaws.com/soa12jdk/"
+  }
 }
