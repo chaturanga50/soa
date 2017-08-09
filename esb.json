@@ -38,6 +38,6 @@
     }
   },
  "java_se": {
-    "uri": "https://s3.amazonaws.com/soa12jdk/"
+    "uri": "https://s3.amazonaws.com/soa12jdk"
   }
 }
