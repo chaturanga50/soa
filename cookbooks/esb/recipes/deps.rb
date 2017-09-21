@@ -2,7 +2,7 @@
 #Damith Rushika Kothalawala - 8/4/2017
 
 execute "install GUI" do
-  code "/usr/bin/yum groupinstall 'Server with GUI' -y"
+  command "/usr/bin/yum groupinstall 'Server with GUI' -y"
 end
 
 node["deps"]["packages"].each do | package |
